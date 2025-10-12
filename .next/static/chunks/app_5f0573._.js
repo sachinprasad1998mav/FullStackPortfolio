@@ -87,7 +87,7 @@ const HeroSection = ()=>{
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden border-4 border-blue-500/50 shadow-lg",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    src: "/sachin.png",
+                                    src: "/sachin.jpg",
                                     alt: "Sachin Prasad",
                                     width: 160,
                                     height: 160,
@@ -150,7 +150,7 @@ const HeroSection = ()=>{
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                                     className: "text-xl sm:text-2xl font-light tracking-wide text-blue-400",
-                                                    children: "Full Stack Developer"
+                                                    children: "Front End Developer"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/HeroSection.tsx",
                                                     lineNumber: 62,
@@ -171,7 +171,7 @@ const HeroSection = ()=>{
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-base sm:text-lg text-gray-400 max-w-2xl px-4 sm:px-0",
-                                            children: "Passionate Full Stack Developer specializing in building robust backends with Java Spring Boot and intuitive frontends with React."
+                                            children: "Frontend Engineer (4+ yrs) specializing in React, TypeScript, Redux & Jotai, building data-heavy UIs with Carbon Design System and interactive charts (Highcharts/D3). Focused on performance, accessibility, and robust testing (Jest/RTL) to ship secure, scalable, and user-centric apps."
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/HeroSection.tsx",
                                             lineNumber: 67,
@@ -186,25 +186,29 @@ const HeroSection = ()=>{
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex flex-wrap justify-center gap-2 sm:gap-3 mt-6 sm:mt-8 px-4 sm:px-0",
                                     children: [
-                                        "Java",
-                                        "Spring Boot",
+                                        "Javascript",
+                                        "Typescript",
                                         "React",
-                                        "Redux Toolkit",
+                                        "Redux",
                                         "Zustand",
-                                        "MySQL",
-                                        "MongoDB",
-                                        "AWS"
+                                        "Jotai",
+                                        "Highcharts",
+                                        "Carbon Design System",
+                                        "React Testing Library",
+                                        "Jest",
+                                        "Docker",
+                                        "Git"
                                     ].map((tech)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "px-3 sm:px-4 py-1 sm:py-1.5 bg-[#1A1F2B] rounded-full text-sm font-medium text-gray-300 border border-[#2D333B] hover:border-blue-500/50 transition-colors",
                                             children: tech
                                         }, tech, false, {
                                             fileName: "[project]/app/components/HeroSection.tsx",
-                                            lineNumber: 86,
+                                            lineNumber: 92,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/HeroSection.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 77,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -217,13 +221,13 @@ const HeroSection = ()=>{
                             className: "flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mt-8 sm:mt-12 px-4 sm:px-0",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: "/Sachin_Prasad_Resume.pdf",
+                                    href: "/Sachin_Prasad_Resume_FE.pdf",
                                     download: true,
                                     className: "px-6 sm:px-8 py-3 bg-[#21262D] rounded-full hover:bg-[#2D333B] transition-colors border border-[#2D333B] hover:border-gray-600 text-center text-white font-semibold",
                                     children: "Download Resume"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/HeroSection.tsx",
-                                    lineNumber: 99,
+                                    lineNumber: 105,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -234,7 +238,7 @@ const HeroSection = ()=>{
                                             className: "absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full blur opacity-75 group-hover:opacity-100 transition"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/HeroSection.tsx",
-                                            lineNumber: 112,
+                                            lineNumber: 118,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -253,24 +257,24 @@ const HeroSection = ()=>{
                                                         d: "M13 7l5 5m0 0l-5 5m5-5H6"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/HeroSection.tsx",
-                                                        lineNumber: 121,
+                                                        lineNumber: 127,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/HeroSection.tsx",
-                                                    lineNumber: 115,
+                                                    lineNumber: 121,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/HeroSection.tsx",
-                                            lineNumber: 113,
+                                            lineNumber: 119,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/HeroSection.tsx",
-                                    lineNumber: 108,
+                                    lineNumber: 114,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -279,13 +283,13 @@ const HeroSection = ()=>{
                                     children: "Get in Touch"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/HeroSection.tsx",
-                                    lineNumber: 132,
+                                    lineNumber: 138,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/components/HeroSection.tsx",
-                            lineNumber: 97,
+                            lineNumber: 103,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -304,17 +308,17 @@ const HeroSection = ()=>{
                                             d: "M12 0C5.37 0 0 5.373 0 12c0 5.302 3.438 9.8 8.205 11.385.6.113.82-.26.82-.577v-2.04c-3.338.726-4.033-1.614-4.033-1.614-.546-1.387-1.333-1.756-1.333-1.756-1.089-.744.083-.729.083-.729 1.205.084 1.838 1.237 1.838 1.237 1.07 1.835 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.604-2.665-.305-5.466-1.334-5.466-5.931 0-1.311.468-2.381 1.235-3.221-.124-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.119 3.176.767.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.565 21.798 24 17.301 24 12c0-6.627-5.373-12-12-12z"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/HeroSection.tsx",
-                                            lineNumber: 149,
+                                            lineNumber: 155,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/HeroSection.tsx",
-                                        lineNumber: 148,
+                                        lineNumber: 154,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/HeroSection.tsx",
-                                    lineNumber: 142,
+                                    lineNumber: 148,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -330,23 +334,23 @@ const HeroSection = ()=>{
                                             d: "M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.25 8h4.5v12H.25zM7 8h4.1v1.8h.1c.57-1.08 1.97-2.2 4.05-2.2 4.33 0 5.12 2.85 5.12 6.55V20h-4.5v-5.9c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.08V20H7z"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/HeroSection.tsx",
-                                            lineNumber: 160,
+                                            lineNumber: 166,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/HeroSection.tsx",
-                                        lineNumber: 159,
+                                        lineNumber: 165,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/HeroSection.tsx",
-                                    lineNumber: 153,
+                                    lineNumber: 159,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/components/HeroSection.tsx",
-                            lineNumber: 141,
+                            lineNumber: 147,
                             columnNumber: 11
                         }, this)
                     ]

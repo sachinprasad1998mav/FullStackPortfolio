@@ -36,7 +36,7 @@ export const HeroSection = () => {
           <div className="flex justify-center">
             <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden border-4 border-blue-500/50 shadow-lg">
               <Image
-                src="/sachin.png"
+                src="/sachin.jpg"
                 alt="Sachin Prasad"
                 width={160}
                 height={160}
@@ -60,28 +60,34 @@ export const HeroSection = () => {
               <div className="flex items-center gap-3">
                 <span className="h-[1px] w-8 sm:w-12 bg-blue-500"></span>
                 <h2 className="text-xl sm:text-2xl font-light tracking-wide text-blue-400">
-                  Full Stack Developer
+                  Front End Developer
                 </h2>
                 <span className="h-[1px] w-8 sm:w-12 bg-blue-500"></span>
               </div>
               <p className="text-base sm:text-lg text-gray-400 max-w-2xl px-4 sm:px-0">
-                Passionate Full Stack Developer specializing in building robust
-                backends with Java Spring Boot and intuitive frontends with
-                React.
+                Frontend Engineer (4+ yrs) specializing in React, TypeScript,
+                Redux & Jotai, building data-heavy UIs with Carbon Design System
+                and interactive charts (Highcharts/D3). Focused on performance,
+                accessibility, and robust testing (Jest/RTL) to ship secure,
+                scalable, and user-centric apps.
               </p>
             </div>
 
             {/* Tech Stack Pills */}
             <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mt-6 sm:mt-8 px-4 sm:px-0">
               {[
-                "Java",
-                "Spring Boot",
+                "Javascript",
+                "Typescript",
                 "React",
-                "Redux Toolkit",
+                "Redux",
                 "Zustand",
-                "MySQL",
-                "MongoDB",
-                "AWS",
+                "Jotai",
+                "Highcharts",
+                "Carbon Design System",
+                "React Testing Library",
+                "Jest",
+                "Docker",
+                "Git",
               ].map((tech) => (
                 <span
                   key={tech}
@@ -97,7 +103,7 @@ export const HeroSection = () => {
           <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mt-8 sm:mt-12 px-4 sm:px-0">
             {/* Download Resume */}
             <a
-              href="/Sachin_Prasad_Resume.pdf"
+              href="/Sachin_Prasad_Resume_FE.pdf"
               download
               className="px-6 sm:px-8 py-3 bg-[#21262D] rounded-full hover:bg-[#2D333B] transition-colors border border-[#2D333B] hover:border-gray-600 text-center text-white font-semibold"
             >
