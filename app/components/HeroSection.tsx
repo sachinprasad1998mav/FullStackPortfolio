@@ -36,10 +36,10 @@ export const HeroSection = () => {
           <div className="flex justify-center">
             <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden border-4 border-blue-500/50 shadow-lg">
               <Image
-                src="/sachin.jpg"
+                src="/sachin.png"
                 alt="Sachin Prasad"
-                width={160}
-                height={160}
+                width={180}
+                height={180}
                 className="object-cover w-full h-full"
                 priority
               />
